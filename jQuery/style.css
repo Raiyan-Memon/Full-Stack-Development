@@ -1,0 +1,17 @@
+body{
+    /* background-color: black;
+    color: white; */
+}
+
+.text{
+    /* color: black ; */
+    background-color: green;
+}
+
+.font{
+    font-style: italic;
+}
+
+#menu{
+    z-index: 1000;
+}

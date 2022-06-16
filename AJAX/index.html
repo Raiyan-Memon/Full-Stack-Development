@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1 id="root"></h1>
+
+    <!-- <ul>
+        <li id="getdata"></li>
+    </ul> -->
+    <div id="getdata"></div>
+
+
+    <button class="btn btn-primary" id="fetchbtn">Fetch Data</button>
+
+    <button class="btn btn-success" id="fetchbtn2">Fetching the data</button>
+
+    <ul id="datahere">
+
+    </ul>
+
+
+    <button class="btn btn-light" id="fetchfile">Fetching file</button>
+
+    <p id="data"></p>
+
+
+
+    <!-- table for getting response from the website -->
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">userid</th>
+                <th scope="col">title</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td id="id"></td>
+                <td id="userid"></td>
+                <td id="title"></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="jquery.js"></script>
+    <script src="ajax.js"></script>
+</body>
+
+</html>

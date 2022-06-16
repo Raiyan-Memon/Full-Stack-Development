@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+</head>
+
+<style>
+    .para {
+        color: red;
+    }
+
+    .invisible {
+        visibility: hidden;
+    }
+
+    .realname {
+        color: violet;
+    }
+</style>
+
+<body>
+
+
+
+    <p class="hello" style="color:blue">hello</p>
+
+
+
+
+
+    <p class="paragraph" id="paraid" <h1 class="myname" id="id1">Raiyan memon</h1>
+
+    <p class="para" id="paraname">Hey this is raiyan memon</p>
+
+    <button onclick="clickme()" class="btn">Click me</button>
+
+    <input type="text" placeholder="raiyan" id="pass">
+
+
+    <h2 class="hideonclick">Hide and visible</h2>
+
+    <button onclick="gotobing()">click here to go to bing</button><br>
+
+    <a target="_blank" id="link" href="https://www.google.com">Google</a>
+
+    <h1 id="fun"></h1>
+
+
+    <!-- <input type="file"> -->
+
+    <script>
+
+        alert("hello");
+        var vara = document.getElementById('id1').innerHTML = "new name";
+        console.log(vara);
+
+        document.getElementById('pass');
+
+
+        document.getElementById('id1').id = "sdf";
+
+
+        document.querySelector('h1.myname');
+        // it will select only one element
+
+        document.querySelector('h1.myname').style.color = "Blue";
+
+        document.querySelectorAll('h1');
+        // it will select all the elements in array
+
+        document.getElementsByClassName('name');
+
+
+
+
+        function clickme() {
+            document.querySelector('h2.hideonclick').classList.toggle("invisible");
+            document.querySelector('.name').classList.toggle("realname");
+            console.log("button is clicked");
+        }
+
+        function gotobing() {
+
+            document.getElementById('link').innerHTML = "Bing";
+            document.getElementById('link').href = "https://bing.com";
+        }
+
+
+
+        let x = 10;
+        let y = 20;
+
+        x = 15;
+
+        var v = 22;
+        v = 12
+
+        const i = 30;
+
+        //  i = 25;
+
+        console.log(i);
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

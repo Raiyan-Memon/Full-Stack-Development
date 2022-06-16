@@ -1,0 +1,8 @@
+npm init
+//for getting json file
+
+https://www.npmjs.com/package
+//packages for npm install\
+
+
+//to run node.js file go to command line open this folder and type - node node.js
